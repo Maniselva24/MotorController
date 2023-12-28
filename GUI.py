@@ -24,7 +24,7 @@ E1.pack(
 
 def on_click():
     tcp_com(E1.get())
-    print(E1.get())
+    # print(E1.get())
 
 
 # exit button
