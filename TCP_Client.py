@@ -4,7 +4,7 @@ import socket
 
 
 def tcp_com(x):
-    host = "192.168.1.9"  # The server's hostname or IP address
+    host = "192.168.4.1"  # "192.168.1.9 (STATION MODE)" 192.168.4.1(SOFT ACCESS POINT MODE) # The server's hostname or IP address
     port = 1336  # The port used by the server
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.settimeout(5)
